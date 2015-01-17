@@ -1,0 +1,83 @@
+/*body {
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+
+}
+
+.contain {
+	width: auto;
+	text-align: center;
+}*/
+
+/**********************************************
+************************nav********************
+***********************************************/
+/*.navbar {
+	margin: 0 auto;
+	z-index: 30;
+	background-color: #ecd2e1;
+}
+
+.navbar li {
+	display: inline;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+.navbar ul {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+#social-media {
+	float: right;
+}
+
+#nav-logo {
+	float: left;
+	margin-right: 100px;
+	margin-top: -25px;
+}*/
+
+/**********************************************
+************************main-bckgrnd***********
+***********************************************/
+.main-bckgrnd {
+	background: url(../images/bckgndimg.png) fixed center top no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.jumbotron .container {
+    width: auto;
+    text-align: center;
+
+/**********************************************
+************************menu*******************
+***********************************************/
+
+#menu {
+	background-color: yellow;
+}
+/**********************************************
+************************Schedule****************
+***********************************************/
+
+#schedule {
+	background-color: green;
+}
+
+/**********************************************
+************************nav********************
+***********************************************/
+
+#employee {
+	background-color: blue;
+}
+
+/**********************************************
+************************testimonial************
+***********************************************/
+#testimonial {
+	background-color: red;
+}
