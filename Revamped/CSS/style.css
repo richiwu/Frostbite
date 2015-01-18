@@ -1,19 +1,19 @@
-/*body {
+body {
 	margin: 0 auto;
-	position: relative;
+/*	position: relative;*/
 	height: 100%;
 
 }
 
-.contain {
-	width: auto;
+.container {
+	width: 1000px;
 	text-align: center;
-}*/
+}
 
 /**********************************************
 ************************nav********************
 ***********************************************/
-/*.navbar {
+.navbar {
 	margin: 0 auto;
 	z-index: 30;
 	background-color: #ecd2e1;
@@ -29,7 +29,7 @@
 	margin-top: 30px;
 }
 
-#social-media {
+#social-media {w
 	float: right;
 }
 
@@ -37,34 +37,35 @@
 	float: left;
 	margin-right: 100px;
 	margin-top: -25px;
-}*/
+}
 
 /**********************************************
 ************************main-bckgrnd***********
 ***********************************************/
-.main-bckgrnd {
+#main-bckgrnd {
 	background: url(../images/bckgndimg.png) fixed center top no-repeat;
-	background-size: cover;
 	overflow: hidden;
+	margin-top: 50px;
 }
 
-.jumbotron .container {
-    width: auto;
-    text-align: center;
 
 /**********************************************
 ************************menu*******************
 ***********************************************/
 
 #menu {
-	background-color: yellow;
+/*	background-color: yellow;*/
+	margin-top: 50px;
 }
+
+.menurow{
+	margin-top: 15px;
 /**********************************************
 ************************Schedule****************
 ***********************************************/
-
+}
 #schedule {
-	background-color: green;
+/*	background-color: green;*/
 }
 
 /**********************************************
@@ -72,7 +73,8 @@
 ***********************************************/
 
 #employee {
-	background-color: blue;
+/*	background-color: blue;*/
+
 }
 
 /**********************************************
