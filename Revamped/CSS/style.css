@@ -5,6 +5,10 @@ body {
 
 }
 
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: lato;
+}
+
 .container {
 	width: 1000px;
 	text-align: center;
@@ -23,14 +27,30 @@ body {
 	display: inline;
 	margin-left: 50px;
 	text-transform: uppercase;
+	font-family: lato;
+	color: white;
+}
+.navbar a {
+	color: white;
+}
+
+.navbar a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color:white;
 }
 .navbar ul {
 	list-style-type: none;
 	margin-top: 30px;
 }
 
-#social-media {w
+#social-media {
 	float: right;
+}
+#social-media img:hover {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
 #nav-logo {
@@ -60,6 +80,14 @@ body {
 
 .menurow{
 	margin-top: 15px;
+
+
+/**********************************************
+************************Facts*******************
+***********************************************/
+
+
+
 /**********************************************
 ************************Schedule****************
 ***********************************************/
@@ -68,18 +96,36 @@ body {
 /*	background-color: green;*/
 }
 
+#prices ul {
+	list-style-type: none;
+}
+
+#prices li {
+	display: inline;
+	margin-left: 15px;
+}
+#the-sizes img{
+	width: 10%;
+	height: 10%;
+}
+
+
 /**********************************************
-************************nav********************
+************************Prices********************
 ***********************************************/
 
-#employee {
-/*	background-color: blue;*/
 
-}
+/**********************************************
+************************Employees********************
+***********************************************/
 
 /**********************************************
 ************************testimonial************
 ***********************************************/
 #testimonial {
-	background-color: red;
+/*	background-color: red;*/
 }
+
+/**********************************************
+************************Application********************
+***********************************************/

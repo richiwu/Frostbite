@@ -10,6 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap-responsive.css">
 		<link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap-responsive.min.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<script src="js/script.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script type="text/javascript" src="http://codysherman.com/tools/infinite-scrolling/code"></script>
@@ -26,11 +28,11 @@
 	  <div class="container">
 	  		<ul>
 				<li id ="nav-logo"><img src ="../images/frostbite_logo.png" width="200" height="52"></li>
-				<li>menu</li>
-				<li>facts</li>
-				<li>employees</li>
-				<li>testimonials</li>
-				<li id ="social-media"><img src="../images/fb.png" width="22" height="22"> </li>
+				<li><a href="">menu</a></li>
+				<li><a href="">facts</a></li>
+				<li><a href="">employees</a></li>
+				<li><a href="">testimonials</a></li>
+				<li id ="social-media"><a href="https://www.facebook.com/FrostbitesEus?ref=br_tf"><img src="../images/fb.png" width="22" height="22"></a> </li>
 			</ul>
 	  </div>
 	</nav>
@@ -50,9 +52,9 @@
 ************************menu***********
 ***********************************************-->
 	<section id = "menu"> 
-		<h1> menu </h1>
-		<h5> What's Your Favourite? </h5>
+		<h1> Menu </h1>
 		<div class = "container">
+		<h5> What's Your Favourite? </h5>
 			<div class="menu-section">
 				<div class="row row1 menurow">
 					<div class="span3"><img src="../images/row1col1.png"></div>
@@ -113,64 +115,110 @@
 	</section>
 
 <!--**********************************************
-************************schedule***********
+************************Facts***********
 ***********************************************-->
-	<section id = "schedule"> 
-		<h1> Facts </h1>
-		<div class = "container" background-color= "red">
+	<section id = "facts">
+		<h1>Facts </h1>
+		<div class = "container">
 			<div class="row">
 				<div class="span6">
-				<h3>Schedule</h3>
-					<div class="row">
-					<div class="span3">
+					<img src="../images/fail.png" width="150" height="150">
+					<br><br>
+					<p> got less than 30% in a midterm worth <br> more than 15%? It's your lucky day! </p>
+				</div>
+				<div class="span6">
+					<img src="../images/toonie.jpg" width="150" height="150">
+					<br><br>					
+					<p> come on tuesdays for our special! </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!--**********************************************
+************************schedule***********
+***********************************************-->
+
+	<section id = "schedule"> 
+		<h1> Schedule </h1>
+		<br>
+		<div class = "container" background-color= "red">
+			<div class="row">
+					<div class="span4">
 						<table class="table table-hover">
 							<tr>
-								<td> Monday </td>
+								<td>Monday &nbsp </td>
 								<td> 11 - 4 </td>
 							</tr>
+						</table>
+					</div>
+					<div class="span4">
+						<table class="table table-hover">
 							<tr>
 								<td> Tuesday </td>
 								<td> 11 - 4 </td>
 							</tr>
+						</table>
+					</div>
+					<div class="span4">
+						<table class="table table-hover">
 							<tr>
 								<td> Wednesday </td>
 								<td> 11 - 4 </td>
 							</tr>
+						</table>
+					</div>
+			</div>
+			<br>
+			<div class="row">
+					<div class="span4">
+						<table class="table table-hover">
 							<tr>
 								<td> Thursday </td>
 								<td> 11 - 4 </td>
-							</tr>			
-
+							</tr>
 						</table>
 					</div>
-					<div class="span3">
+					<div class="span4">
 						<table class="table table-hover">
 							<tr>
-								<td> Friday </td>
+								<td> Friday &nbsp &nbsp </td>
 								<td> 11 - 4 </td>
 							</tr>
-							<tr>
-								<td> Saturday </td>
-								<td> Closed </td>
-							</tr>
-							<tr>
-								<td> Sunday </td>
-								<td> Closed </td>
-							</tr>						
 						</table>
 					</div>
+					<div class="span4">
+						<table class="table table-hover">
+							<tr>
+								<td> Weekend &nbsp &nbsp &nbsp </td>
+								<td> Closed </td>
+							</tr>
+						</table>
 					</div>
-				</div>
-				<div class="span6">
-					<h2>Prices</h2>
-				</div>
 			</div>
 		</div>
-
-		<h2> At work right now: </h2>
-		<p> got less than 30% in a midterm worth more than 15%? It's your lucky day! </p>
-		<p> come on tuesdays for our special! </p>
+<!-- 		<h2> At work right now: </h2> -->
 	</section>
+
+
+<!--**********************************************
+************************prices***********
+***********************************************-->
+
+<section id = "prices">
+	<h1>Prices</h1>
+	<div class = "container">
+			<ul id="the-sizes">
+				<li><img src="../images/baby.jpg"></li>
+				<li<img src="../images/small.jpg"></li>
+				<li><img src="../images/medium.jpg"></li>
+				<li><img src="../images/large.jpg"></li>
+				<li><img src="../images/xl.jpg"></li>
+			</ul>
+	</div>
+</section>
+
 
 <!--**********************************************
 ************************employee***********
@@ -238,18 +286,6 @@
 <!--**********************************************
 ************************testimonial***********
 ***********************************************-->
-	<section id = "testimonial"> 
-				<div class = "container">
-		</div>
-	</section>
-
-
-
-
-	</body>
-
-	<footer>
-	</footer>
 	<section id = "testimonial">
 		<h1> Testimonials </h1>
 
@@ -259,4 +295,33 @@
 		<h5> Click <a href="">here</a> to submit your testimonial! </h5>
 	</section>
 
+
+
+<!--**********************************************
+************************Application***********
+***********************************************-->
+	<section id = "application">
+		<h1> Apply Now! </h1>
+	    <div class="container">
+		      <form role="form">
+		        <div class="form-group">
+		          <label for="email">Email:</label>
+		          <input type="email" class="form-control" id="email" placeholder="Enter email">
+		        </div>
+		        <div class="form-group">
+		          <label for="pwd">Password:</label>
+		          <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+		        </div>
+		        <button type="submit" class="btn btn-default">Submit</button>
+		      </form>
+	    </div>
+	</section>
+
+	</body>
+
+	<footer>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </html>
