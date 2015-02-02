@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6, p, li {
 	text-align: center;
 }
 
+#menu, #prices,#contact, #employee, #testimonial, #application {
+	margin-top: -10px;
+}
+
 /**********************************************
 ************************nav********************
 ***********************************************/
@@ -63,37 +67,61 @@ h1, h2, h3, h4, h5, h6, p, li {
 ************************main-bckgrnd***********
 ***********************************************/
 #main-bckgrnd {
-	background: url(../images/bckgndimg.png) fixed center top no-repeat;
 	overflow: hidden;
 	margin-top: 50px;
 }
 
+
+.jumbotron {
+    background: url(../images/bckgndimg.png) fixed center top no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    background-position-y:-100px;
+    height: 520px;
+    background-color: #ecd2e1;
+}
 
 /**********************************************
 ************************menu*******************
 ***********************************************/
 
 #menu {
-/*	background-color: yellow;*/
-	margin-top: 50px;
+	background-color: #d5ebdc;
+
 }
 
 .menurow{
 	margin-top: 15px;
 
-
+}
 /**********************************************
 ************************Facts*******************
 ***********************************************/
-
+#facts {
+	background-color: #f5f0f4;
+	margin-top: -30px;
+	height: 400px;
+}
 
 
 /**********************************************
-************************Schedule****************
+************************Contact****************
 ***********************************************/
+
+#contact {
+	background-color: #65fddb;
 }
-#schedule {
-/*	background-color: green;*/
+
+
+/**********************************************
+************************Prices********************
+***********************************************/
+
+#prices {
+	background-color: #65fddb;
 }
 
 #prices ul {
@@ -109,23 +137,39 @@ h1, h2, h3, h4, h5, h6, p, li {
 	height: 10%;
 }
 
-
-/**********************************************
-************************Prices********************
-***********************************************/
-
-
 /**********************************************
 ************************Employees********************
 ***********************************************/
+
+#employee {
+	background-color: #ff5050;
+}
 
 /**********************************************
 ************************testimonial************
 ***********************************************/
 #testimonial {
-/*	background-color: red;*/
+	margin-top: -20px;
+	height: 200px;
+	background-color: #ffed56;
 }
 
 /**********************************************
 ************************Application********************
 ***********************************************/
+
+#application {
+		background-color: #e5c7e8;
+}
+
+
+/**********************************************
+************************Footer********************
+***********************************************/
+footer {
+	background-color: #b2b1b2;
+}
+
+footer p {
+	color: white;
+}
