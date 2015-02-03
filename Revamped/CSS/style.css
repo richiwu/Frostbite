@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p, li {
 	margin-top: -10px;
 }
 
+#yolo {
+	margin-top: 50px;
+}
+
 /**********************************************
 ************************nav********************
 ***********************************************/
@@ -84,12 +88,23 @@ h1, h2, h3, h4, h5, h6, p, li {
     background-color: #ecd2e1;
 }
 
+.main-notes ul{
+	list-style-type: none;
+	margin-top: 25px;
+}
+.main-notes li {
+	display: inline;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
 /**********************************************
 ************************menu*******************
 ***********************************************/
 
 #menu {
 	background-color: #d5ebdc;
+	height: 780px;
 
 }
 
@@ -122,6 +137,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 #prices {
 	background-color: #65fddb;
+	height: 320px;
 }
 
 #prices ul {
@@ -143,6 +159,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 #employee {
 	background-color: #ff5050;
+	height: 1200px;
 }
 
 /**********************************************
