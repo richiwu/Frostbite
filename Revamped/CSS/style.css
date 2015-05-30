@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 	font-family: lato;
 }
 
+
 .container {
 	width: 1000px;
 	text-align: center;
@@ -22,6 +23,10 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 #yolo {
 	margin-top: 50px;
+}
+
+.bold-class {
+	font-weight: bold;
 }
 
 /**********************************************
@@ -92,7 +97,7 @@ h1, h2, h3, h4, h5, h6, p, li {
     padding-top: 100px;
     margin-bottom: 0px;
     background-position-y:-100px;
-    height: 470px;
+
 /*    background-color: #c81118;*/
 }
 
@@ -120,6 +125,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 #menu {
 	background-color: #d5ebdc;
+    margin-top: -7px
 
 }
 
@@ -161,7 +167,7 @@ span.text-content {
 ***********************************************/
 #facts {
 	background-color: #f5f0f4;
-	margin-top: -20px;
+	margin-top: -30px;
 }
 
 #facts a {
@@ -199,6 +205,7 @@ span.text-content {
 	height: 10%;
 }
 
+
 /**********************************************
 ************************Employees********************
 ***********************************************/
@@ -206,6 +213,30 @@ span.text-content {
 #employee {
 	background-color: #fff;
 
+}
+
+.img-circle {
+	width: 340px;
+	height: 200px;
+}
+
+#employee a {
+	color:#c81118;
+}
+
+#employee a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#cone img {
+	width: 80%;
+}
+
+#employee h3 {
+	color:#c81118;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 /**********************************************
