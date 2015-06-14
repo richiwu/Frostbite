@@ -11,5 +11,76 @@
 	border-color: #FA787E;
 }
 .ng-valid.ng-dirty {
-	border-color: #78FA89;
+	border-color: #78fa89;
 }
+
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+	width:100%
+}
+.menu_section, .facts_section, .employee_section, .contact_section, .testimonial_section{
+	text-align: center;
+}
+
+
+/********Landing********/
+.landing_section {
+	background: url(../img/brand/background.jpg) fixed center top no-repeat;
+	background-size: cover;
+	height:100%;
+	width:100%;
+}
+
+
+
+/********Menu********/
+.menu_section {
+	background-color: #fefbec;
+}
+
+.menu_subsection {
+	background-color: #fefbec;
+
+}
+
+.menu_section img {
+	width: 70%;
+	height: 70%;
+}
+
+
+
+/********Facts********/
+.facts_section {
+	background-color: #000066;
+}
+
+
+/********Employee********/
+.employee_section img{
+	width:70%;
+	height:70%;
+}
+
+/*.employee_section p {*/
+	/*margin-left:80px;*/
+/*}*/
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+	border: none;
+}
+
+/********Contact********/
+.contact_section {
+	background-color: #419641;
+}
+
+
+/********Testimonial********/
+
+.testimonial_section {
+	background-color: #303030;
+}
+
+/********Footer********/
