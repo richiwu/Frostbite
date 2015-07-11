@@ -4,7 +4,7 @@
 	padding-right: 0px;
 	width:100%
 }
-.landing_section, .menu_section, .facts_section, .employee_section, .contact_section, .testimonial_section, .partner_section {
+.landing_section, #menu_section, #facts_section, #employee_section, #contact_section, #testimonial_section, #partner_section, #footer_section {
 	text-align: center;
 	margin-top: -20px;
 }
@@ -14,16 +14,32 @@
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
-	font-family: lato;
+	font-family: 'Indie Flower', cursive;
 }
 .section_title {
-	font-style: lato;
+	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: underline;
 	margin-top: 25px;
 	font-size: 20px;
 }
+
+.spacing_top{
+	height: 40px;
+}
+
+.spacing_bottom {
+	height: 30px;
+}
+
+
+.main_section {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
 /********navbar********/
 .navbar {
 	margin: 0 auto;
@@ -35,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 	display: inline;
 	margin-left: 50px;
 	text-transform: uppercase;
-	font-family: lato;
+	font-family: 'Indie Flower', cursive;
 	color: white;
 }
 .navbar a {
@@ -52,9 +68,14 @@ h1, h2, h3, h4, h5, h6, p, li {
 	margin-top: 30px;
 }
 
-#social-media {
+.social-media {
 	float: right;
 }
+
+.yelp_media {
+	margin-right: -25px;
+}
+
 #social-media img:hover {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -73,15 +94,15 @@ h1, h2, h3, h4, h5, h6, p, li {
 	background-size: cover;
 	height:100%;
 	width:100%;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 #landing_sen{
 	text-transform: capitalize;
 	font-weight: bolder;
-	font-size: 16px;
-	font-style: lato;
-	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+	margin-top: 120px;
 	font-style: italic;
 }
 
@@ -93,9 +114,11 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 
 /********Menu********/
-.menu_section {
+#menu_section {
 	background-color: #fefbec;
+	margin-top: -50px;
 }
+
 
 .menu_subsection {
 	background-color: #fefbec;
@@ -107,41 +130,152 @@ h1, h2, h3, h4, h5, h6, p, li {
 	height: 15%;
 }
 
+span.text-content {
+  /*background: rgba(0,0,0,0.5);*/
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+}
+
+.flav_section:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(254,251,236,0.8);
+  color: #000;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: table;
+  height: 90px;
+  margin-left:90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
 
 
 
+
+/********Partnership********/
+#partner_section {
+	background: url(../img/handshake.jpg) fixed center top no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin-top: -50px;
+
+}
+
+.partner_content {
+	margin-top: 100px;
+	background-color: #fff;
+	font-size: 16px;
+	width: 70%;
+	margin-left:  15%;
+}
 
 /********Facts********/
-.facts_section {
+#facts_section {
+	margin-bottom: 50px;
+	margin-right: 10px;
+	background-color: #FFEDFF;
+	margin-top: -40px;
+}
 
+.facts_col p{
+	margin-top: 30px;
 }
 
 
 /********Employee********/
-.employee_section img{
+#employee_section img{
 	width:70%;
 	height:50%;
 }
 
 .employee_name {
 	margin-top: 15px;
+	color:  #c81118;
+	font-size: 20;
+	text-decoration: underline;
 }
 
+#employee_section {
+	background-color: #EDEFED;
+	margin-top: 1px;
+}
+
+/*.the_employees {
+	margin-top: 150px;
+}*/
+
+.holder_partner {
+	margin-top: 80px;
+}
 
 /********Contact********/
 
-.contact_section {
+#contact_section {
 	background-color: #FFE7E7;
+	margin-top: -30px;
 }
 
 
 /********Testimonial********/
-.testimonial_section button {
+#testimonial_section button {
 	margin-top: 10px;
 }
-.testimonial_section  {
+#testimonial_section  {
 	background-color: #FFFF94;
 }
 
+::-webkit-input-placeholder { font-family: 'Indie Flower', cursive; }
+::-moz-placeholder { font-family: 'Indie Flower', cursive; } /* firefox 19+ */
+:-ms-input-placeholder { font-family: 'Indie Flower', cursive; } /* ie */
+input:-moz-placeholder { font-family: 'Indie Flower', cursive; }
+
 
 /********Footer********/
+#footer_section {
+	height: 50px;
+	background-color: #FEFBEC;
+	margin-top: -40px;
+
+}
+
+.footer_content a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}

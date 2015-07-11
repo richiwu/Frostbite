@@ -1,7 +1,5 @@
 var myApp = angular.module('myApp', []);
 myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
-    console.log("Hello World from controller");
-
 
 var refresh = function() {
   $http.get('/testimonials').success(function(response) {
@@ -49,151 +47,188 @@ $scope.deselect = function() {
 	$scope.flavours = [
 			{
 				alt: 'baby monkey',
-				flavId:'baby_monkey.jpg'
+				flavId:'baby_monkey.jpg',
+				description: 'No monkeys were harmed in the making of this ice cream'
 			},
 			{
 				alt: 'black cherry',
-				flavId:'black_cherry.jpg'
+				flavId:'black_cherry.jpg',
+				description: 'Better than white cherry. ya dig?'
 			},
 			{
 				alt: 'butterscotch ripple',
-				flavId:'butterscotch_ripple.jpg'
+				flavId:'butterscotch_ripple.jpg',
+				description: 'Grandmas butterscotch pie has stiff competition'
 			},
 			{
 				alt: 'chocolate peanut butter',
-				flavId:'c_pb.jpg'
+				flavId:'c_pb.jpg',
+				description: 'The best party in your mouth, you already know'
 			},
 			{
 				alt: 'chocolate rasberry',
-				flavId:'c_ras.jpg'
+				flavId:'c_ras.jpg',
+				description: 'Kinda tastes like chocolate and rasberries, yoloswag'
 			},
 			{
 				alt: 'chocolate chip cookie dough',
-				flavId:'cc_cookie_dough.jpg'
+				flavId:'cc_cookie_dough.jpg',
+				description: 'A classic to get you through the day'
 			},
 			{
 				alt: 'chai tea',
-				flavId:'chai_tea.jpg'
+				flavId:'chai_tea.jpg',
+				description: 'Damnnnnnnn this is next level exotic'
 			},
 			{
 				alt: 'cookies and cream',
-				flavId:'cookies_cream.jpg'
+				flavId:'cookies_cream.jpg',
+				description: 'Eating cookies just got a lot better'
 			},
 			{
 				alt: 'creme brule',
-				flavId:'creme_brule.jpg'
+				flavId:'creme_brule.jpg',
+				description: 'OUI OUI OUI... très tasty'
 			},
 			{
 				alt: 'green tea',
-				flavId:'green_tea.jpg'
+				flavId:'green_tea.jpg',
+				description: 'Irrelevant opinon: Green tea isnt the best flavour'
 			},
 			{
 				alt: 'guava grapefruit',
-				flavId:'guava_grapefruit.jpg'
+				flavId:'guava_grapefruit.jpg',
+				description: 'Equivalent to the recommended 3 servings of fruit per day'
 			},
 			{
 				alt: 'chocolate chip cookie dough',
-				flavId:'cc_cookie_dough.jpg'
+				flavId:'cc_cookie_dough.jpg',
+				description: 'The perfect remedy for cookie cravings'
 			},
 			{
 				alt: 'chocolate',
-				flavId:'just_choco.jpg'
+				flavId:'just_choco.jpg',
+				description: 'Doesnt get much better than classic chocolate'
 			},
 			{
 				alt: 'coconut',
-				flavId:'just_coconut.jpg'
+				flavId:'just_coconut.jpg',
+				description: 'Im in love with the COCO, ya dig?'
 			},
 			{
 				alt: 'expresso',
-				flavId:'just_expresso.jpg'
+				flavId:'just_expresso.jpg',
+				description: 'Makes me wanna run through the 6 w/ my woes'
 			},
 			{
 				alt: 'smores',
-				flavId:'just_mores.jpg'
+				flavId:'just_mores.jpg',
+				description: 'Guaranteed to have you singing campfire songs'
 			},
 			{
 				alt: 'mud pie',
-				flavId:'just_mud.jpg'
+				flavId:'just_mud.jpg',
+				description: 'Almost as good as the mud pies you used to make when you were 3'
 			},
 			{
 				alt: 'pistachio',
-				flavId:'just_pistach.jpg'
+				flavId:'just_pistach.jpg',
+				description: 'its the bomb.com'
 			},
 			{
 				alt: 'smarties',
-				flavId:'just_smarties.jpg'
+				flavId:'just_smarties.jpg',
+				description: 'Proven to make you smarter, a must-have before any exam'
 			},
 			{
 				alt: 'strawberry',
-				flavId:'just_straberry.jpg'
+				flavId:'just_straberry.jpg',
+				description: 'Cant go wrong with this classic crowd-pleaser'
 			},
 			{
 				alt: 'vanilla',
-				flavId:'just_vanilla.jpg'
+				flavId:'just_vanilla.jpg',
+				description: 'Vanilla ice ice baby'
 			},
 			{
 				alt: 'maple walnut',
-				flavId:'maple_walnut.jpg'
+				flavId:'maple_walnut.jpg',
+				description: 'This ones for all you walnut lovers out there'
 			},
 			{
 				alt: 'mint chocolate chip',
-				flavId:'mint_choco.jpg'
+				flavId:'mint_choco.jpg',
+				description: 'Bruuuuuuuuhhhhh, stayin real gucci with this flavour'
 			},
 			{
 				alt: 'mint oreo',
-				flavId:'mint_oreo.jpg'
+				flavId:'mint_oreo.jpg',
+				description: 'Reminds me of those days when I used to eat oreos and chew on mint plants..'
 			},
 			{
 				alt: 'mixed berry',
-				flavId:'mixed_berry.jpg'
+				flavId:'mixed_berry.jpg',
+				description: 'A perfect mix of all the good things in life'
 			},
 			{
 				alt: 'new york cheesecake',
-				flavId:'ny_cheecake.jpg'
+				flavId:'ny_cheecake.jpg',
+				description: 'NEW YOOOORRK, concrete jungle wet dream tomatoooo'
 			},
 			{
 				alt: 'pralines and cream',
-				flavId:'pralines_cream.jpg'
+				flavId:'pralines_cream.jpg',
+				description: 'Creamy and praline-y, mmmmm SO GOOD'
 			},
 			{
 				alt: 'rolo',
-				flavId:'rolo_yolo.jpg'
+				flavId:'rolo_yolo.jpg',
+				description: '25 sittin on 25 mil'
 			},
 			{
 				alt: 'rum and raison',
-				flavId:'rum_raison.jpg'
+				flavId:'rum_raison.jpg',
+				description: 'Does anyone even like this flavour for the raisins?'
 			},
 			{
 				alt: 'lemon',
-				flavId:'s_just_lemon.jpg'
+				flavId:'s_just_lemon.jpg',
+				description: 'When life gives you lemons, make ice cream'
 			},
 			{
 				alt: 'litchi',
-				flavId:'s_just_litchi.jpg'
+				flavId:'s_just_litchi.jpg',
+				description: 'Better than actual litchi mmmmm'
 			},
 			{
 				alt: 'mango',
-				flavId:'s_just_mango.jpg'
+				flavId:'s_just_mango.jpg',
+				description: 'The Beyonce of ice creams... cant hate on mango ya feel?'
 			},
 			{
 				alt: 'mojito',
-				flavId:'s_just_mojito.jpg'
+				flavId:'s_just_mojito.jpg',
+				description: 'Why bother even going to a bar?'
 			},
 			{
 				alt: 'orange',
-				flavId:'s_sorange.jpg'
+				flavId:'s_sorange.jpg',
+				description: 'Orange you down for some?'
 			},
 			{
 				alt: 'strawberry daquiri',
-				flavId:'s_str_dq.jpg'
+				flavId:'s_str_dq.jpg',
+				description: '10/10 say this is the best daquiri theyve ever tasted'
 			},
 			{
 				alt: 'triple chocolate',
-				flavId:'triple_choco.jpg'
+				flavId:'triple_choco.jpg',
+				description: 'Triple the swag and triple the fun'
 			}
 			// {
 			// 	alt: 'tornado',
 			// 	flavId:'triple_tornado.jpg'
+            //  description: 'You ain't ready for this storm'
 			// }
 
 		];
@@ -202,82 +237,83 @@ $scope.deselect = function() {
 			{
 				name: 'Jess',
 				major: 'Electrical Engineering',
-				home_town: 'Kingston',
-				fav_icecream: 'Mint Oreo',
-				hobby: 'nothing',
-				music: 'country',
-				fact: 'nothing',
-				img: 'richard.png'
+				home_town: 'Mississauga, Ontario',
+				fav_icecream: 'There is too many to choose from!',
+				hobby: 'Cooking and baking',
+				music: 'Depends on the day',
+				fact: ' I climb mountains in Slovenia',
+				img: 'jess.png'
 			},
 			{
 				name: 'Josh',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
-				img: 'richard.png'
+				major: 'Materials Engineering',
+				home_town: 'Calgary, Alberta',
+				fav_icecream: 'Mint Oreo',
+				hobby: 'Musical Theatre',
+				music: 'Jazz/Pop',
+				fact: 'I brought my mom to Blues Pub and OAP',
+				img: 'josh.jpg'
 			},
 			{
 				name: 'Sam',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
-				img: 'richard.png'
+				major: 'Electrical Engineering',
+				home_town: 'Kingston, Ontario',
+				fav_icecream: 'Mint Oreo',
+				hobby: 'Riding pony and licking ice cream',
+				music: 'Happy songs hehe',
+				fact: 'Statistics show that I play better music than Richard',
+				img: 'samantha.jpg'
 			},
 			{
 				name: 'Richard',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
-				img: 'richard.png'
-			},
-			{
-				name: 'Jacqui',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
+				major: 'Electrical Engineering',
+				home_town: 'Mississauga, Ontario',
+				fav_icecream: 'Expresso',
+				hobby: 'Pretending to be gangster',
+				music: 'Hood music: rap, hip hop, trap, ghetto tunes',
+				fact: '2Chainz and Waka Flacka are my heros',
 				img: 'richard.png'
 			},
 			{
 				name: 'Justin',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
-				img: 'richard.png'
+				major: 'Mechanical Engineering',
+				home_town: 'Vancouver, British Columbia',
+				fav_icecream: 'the most ratchet one...chocolate',
+				hobby: 'Staying Fly',
+				music: 'Hannah Montana',
+				fact: 'I pray to Based God',
+				img: 'justin.jpg'
+				
+			},
+			{
+				name: 'Jacqui',
+				major: 'Chemical Engineering',
+				home_town: 'Calgary, Alberta',
+				fav_icecream: 'Green Tea',
+				hobby: ' Playing guitar and pretending I can sing really well',
+				music: 'All about the slow jams, ed sheeran, john mayer, sam smith, hozier',
+				fact: 'I can lick my elbow..ask me to show you!',
+				img: 'jacqui.jpg'
 			},
 			{
 				name: 'Emma',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
-				img: 'richard.png'
+				major: 'Chemical Engineering',
+				home_town: 'Westmoorings, Trinidad',
+				fav_icecream: 'Pralines & Cream',
+				hobby: 'Baking',
+				music: 'Raggae, turn up mon',
+				fact: 'When I was 3 I was photographed eating icecream for a calendar. Looks like it is  meant to be',
+				img: 'emma.jpg'
 			},
 			{
 				name: 'Jacob',
-				major: '',
-				home_town: '',
-				fav_icecream: '',
-				hobby: '',
-				music: '',
-				fact: '',
-				img: 'richard.png'
+				major: 'Mining Engineering',
+				home_town: 'Ottawa, Ontario',
+				fav_icecream: 'Coaticook Mint Chip',
+				hobby: 'The beauty of mathematics and starting mosh pits',
+				music: 'Weirdo punk',
+				fact: 'I have seen every episode of Seinfeld',
+				img: 'jacob.jpg'
 			}
 		]
 
@@ -285,114 +321,7 @@ $scope.deselect = function() {
 
 }]);﻿
 
-	// 	$scope.flavours = [
-	// 		{
-	// 			alt: 'baby monkey',
-	// 			flavId:'baby_monkey.jpg'
-	// 		},
-	// 		{
-	// 			alt: 'black cherry',
-	// 			flavId:'black_cherry.jpg'
-	// 		},
-	// 		{
-	// 			alt: 'butterscotch ripple',
-	// 			flavId:'butterscotch_ripple.jpg'
-	// 		},
-	// 		{
-	// 			alt: 'chocolate peanut butter',
-	// 			flavId:'c_pb.jpg'
-	// 		},
-	// 		{
-	// 			alt: 'chocolate rasberry',
-	// 			flavId:'c_ras.jpg'
-	// 		},
-	// 		{
-	// 			alt: 'chocolate chip cookie dough',
-	// 			flavId:'cc_cookie_dough.jpg'
-	// 		}
-	// 	];
-
-	// 	$scope.employees = [
-	// 		{
-	// 			name: 'Jess',
-	// 			major: 'Electrical Engineering',
-	// 			home_town: 'Kingston',
-	// 			fav_icecream: 'Mint Oreo',
-	// 			hobby: 'nothing',
-	// 			music: 'country',
-	// 			fact: 'nothing'
-	// 		},
-	// 		{
-	// 			name: 'Josh',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		},
-	// 		{
-	// 			name: 'Sam',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		},
-	// 		{
-	// 			name: 'Richard',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		},
-	// 		{
-	// 			name: 'Jacqui',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		},
-	// 		{
-	// 			name: 'Justin',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		},
-	// 		{
-	// 			name: 'Emma',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		},
-	// 		{
-	// 			name: 'Jacob',
-	// 			major: '',
-	// 			home_town: '',
-	// 			fav_icecream: '',
-	// 			hobby: '',
-	// 			music: '',
-	// 			fact: ''
-	// 		}
-	// 	]
-
-
-
-	// function AppCtrl($scope) {
-
-	// 	console.log("hello from control");
-
+	
 
 		
 
